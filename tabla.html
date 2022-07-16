@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabla Dinamica</title>
+	<link rel="stylesheet" href="tabla.css" />
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css"/>
+	<script language="javascript" src="tabla.js"></script>
+</head>
+<body>
+    <div id="principal">
+	   <header id="encabezado">
+	        <hgroup>
+	           <h1>Practica de DOM</h1>
+	           <h2>Tabla dinamica</h2>
+            </hgroup>
+	    </header>
+	    <section id="formulario">
+
+			    <div id="form_grup1">
+					<label for="text">Fila:</label>
+					<input type="number" name="fil" id="fila" required max="22" min="0" placeholder="filas" />
+					<label for="text">Columna:</label>
+					<input type="number" name="col" id="columna" required max="22" min="0" placeholder="columnas" />
+					<input type="button" value="Crear tabla" id="Crear" onclick="crear_tabla()" />
+				</div >
+		        <hr size="5px" style="background: black" />
+				<div id="form_group2">
+				    <label for="text">Texto:</label>
+					<input type="text" name="texto" id="texto" required placeholder="ingrese un dato" />
+					<label for="text">Fila a ubicar:</label>
+					<input type="number" name="locatefila"  id="fila_locate" required max="22" min="0" placeholder="fila" />
+					<label for="text">Columna a ubicar:</label>
+					<input type="number" name="locatecol" id="col_locate" required max="22" min="0" placeholder="columna" />
+					<input type="button" value="Ubicar dato" id="ubicar" onclick="agregando()"/>
+				</div>
+		    
+		</section>
+	    
+	    
+	    <section id="table_contenedor" >
+		
+	    </section>
+	    <footer id="pie_pagina">
+	    	&copy; Echa Por luis Escalante
+	    </footer>
+	</div>
+	
+		        
+			
+			
+</body>
+</html>

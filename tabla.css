@@ -1,0 +1,54 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+
+#principal
+{
+	width: 900px;
+	margin:50px auto;
+	background: #f0fff0;
+	padding: 10px;
+}
+
+#encabezado
+{
+	height: 100px;
+	background: #afeeee;
+
+}
+/*#form_grup1
+{
+
+	background: #7fffd4;
+}
+#form_group2
+{
+	background: #7fffd4;
+}*/
+#formulario
+{
+   background: #7fffd4;
+   margin-top: 10px;
+   padding: 10px;
+}
+#table_contenedor
+{
+	text-decoration-color: white; 
+	background: #f5f5dc;
+	margin-top: 10px;
+}
+#pie_pagina
+{
+	text-align: center;
+	background: #dcdcdc;
+	margin-top: 10px;
+	padding: 10px;
+
+}
+section#table_contenedor table#table_id
+{
+	color: #0000ff;
+}
+
